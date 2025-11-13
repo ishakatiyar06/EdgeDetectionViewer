@@ -21,6 +21,26 @@ This project purposefully **does not use OpenCV** — the native library impleme
 - This is a skeleton intended to compile and run; it focuses on demonstrating the pipeline: Camera -> JNI processing -> texture upload.
 - The `web` folder contains a small viewer that displays a sample processed PNG (already included).
 
+# 📸 Screenshots & Demo
+
+## 🎥 Demo GIF
+![Demo](assets/working_gif.gif)
+
+## 📸 Processing Flow
+
+<p align="center">
+  <img src="assets/img1.png" width="230" />
+  <img src="assets/img2.png" width="230" />
+  <img src="assets/img3.png" width="230" />
+</p>
+
+<p align="center">
+  <img src="assets/img4.png" width="230" />
+  <img src="assets/img5.png" width="230" />
+  <img src="assets/img6.png" width="230" />
+</p>
+
+
 ## Files of interest
 - `android/app/src/main/java/com/example/edgeviewer/MainActivity.kt`
 - `android/app/src/main/cpp/edgeproc.cpp`
